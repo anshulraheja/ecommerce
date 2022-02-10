@@ -7,8 +7,132 @@
     <title>Homepage | Ecommerce</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/homepage.css">
+    <link rel="stylesheet" href="./css/product-card.css">
 </head>
 <body>
-    
+    <div class="container">
+        <!-- HEADER -->
+        <header class="header">
+            <div >
+                <a href="/index.html" class="logo">BASICS</a>
+            </div>
+            <div class="searchBar">
+                <input type="text" class="search-input" placeholder="Search for products, brands and more">
+            </div>
+            <div class="desktop-actions">
+                <a href="/pages/login.html" class="btn-login">
+                    Login
+                </a>
+                <a href="/pages/wishlist.html" class="badge-wrapper">
+                    <i class="far fa-heart"></i>
+                    <span class="badge notification-badge">15</span>
+                </a>
+                <a href="/pages/cards.html" class="badge-wrapper">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="badge notification-badge">2</span>
+                </a>
+            </div>
+        </header>
+        <!-- MAIN -->
+        <main class="main-container">
+            <h2 class="section-header">Shop By Category</h2>
+
+            <!-- SECTION CATEGORY -->
+            <section class="category-container">
+                <div>
+                    <a href="/pages/product.html">
+                        <img src="./assets/shirt.png" alt="">
+                        <span>Shirt</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="/pages/product.html">
+                        <img src="./assets/tshirt.PNG" alt="">
+                        <span>Tshirt</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="/pages/product.html">
+                        <img src="./assets/jeans.PNG" alt="">
+                        <span>Jeans</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="/pages/product.html">
+                        <img src="./assets/shorts.PNG" alt="">
+                        <span>Shorts</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="/pages/product.html">
+                        <img src="./assets/casual-shoes.jpg" alt="">
+                        <span>Casual Shoes</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="/pages/product.html">
+                        <img src="./assets/kurta.jpg" alt="">
+                        <span>Kurta</span>
+                    </a>
+                </div>
+            </section>
+
+            <!-- SECTION IMAGE -->
+            <section class="cta-image-container">
+                <span><img src="/assets/homepage-image-1.png" alt="women-section"></span>
+                <span><img src="/assets/homepage-image-2.png" alt="men-section"></span>
+            </section>
+
+            <!-- SECTION PRODUCT -->
+            <h2 class="section-header">Best Deals of the Day</h2>
+            <section class="homepage-product-container">
+                <div class="product-card vertical-card">
+                    <div class="product-card-image-container">
+                        <img src="https://picsum.photos/200" alt="">
+                        <span class="btn-liked">
+                            <i class="far fa-heart"></i>
+                        </span>
+                    </div>
+                    <div class="product-card-info vertical-info">
+                        <div class="vertical-description">
+                            <h3>Nike</h3>
+                            <h5 class="description-content">Airforce 1</h5>
+                            <div class="product-card-price">
+                                <span class="current-price">Rs 395</span>
+                                <small class="original-price">Rs 1099</small>
+                                <small class="discount">(64% OFF)</small>
+                            </div>
+                        </div>
+                        <div class="product-card-btn-container">
+                            <button class="btn-addToCart">Add To Cart</button>
+                        </div>
+                    </div>      
+                </div>   
+                <div class="product-card vertical-card">
+                    <div class="product-card-image-container">
+                        <img src="https://picsum.photos/201" alt="">
+                        <span class="btn-liked">
+                            <i class="far fa-heart"></i>
+                        </span>
+                    </div>
+                    <div class="product-card-info vertical-info">
+                        <div class="vertical-description">
+                            <h3>Nike</h3>
+                            <h5 class="description-content">Airforce 1</h5>
+                            <div class="product-card-price">
+                                <span class="current-price">Rs 395</span>
+                                <small class="original-price">Rs 1099</small>
+                                <small class="discount">(64% OFF)</small>
+                            </div>
+                        </div>
+                        <div class="product-card-btn-container">
+                            <button class="btn-addToCart">Add To Cart</button>
+                        </div>
+                    </div>      
+                </div>         
+            </section>
+
+        </main>
+    </div>
 </body>
 </html>
