@@ -1,0 +1,20 @@
+.wishlist-product-container{
+    background: var(--COLOR-CATEGORY-BKGD);
+    margin-top: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.75rem;
+}
+.wishlist-header{
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+.wishlist-product-container .fa-heart:before{
+    color: var(--COLOR-WISHLIST);
+}
+@media (max-width: 425px) {
+    .wishlist-product-container{
+        justify-content: center;
+    }
+}
