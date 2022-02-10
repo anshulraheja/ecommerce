@@ -1,0 +1,119 @@
+/* === IMPORTS === */
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
+/* === RESET === */
+html {
+    scroll-behavior: smooth;
+}
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+img {
+    width: 100%;
+}
+button{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+
+/* === BODY === */
+.container{
+    padding: 0.5rem;
+    background: var(--COLOR-BODY);
+}
+
+/* === HEADER === */
+.header{
+    background: var(--COLOR-HEADER-BKGD);
+    padding: 0.5rem 2rem;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    z-index: 1;
+}
+.logo {
+    color: var(--COLOR-HEADER-TEXT);
+    font-weight: 700;
+}
+.searchBar{
+    max-width: 30rem;
+    flex: 1 1 20rem;
+}
+.search-input{
+    background: no-repeat 4px url(../assets/search-icon.png);
+    background-size: 1rem;
+    background-color: var(--COLOR-SEARCH-BAR);
+    color: var(--COLOR-WHITE);
+    width: 100%;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid var(--COLOR-SEARCH-BAR);
+}
+.desktop-actions{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.btn-login{
+    background: var(--COLOR-HEADER-TEXT);
+    color: var( --COLOR-HEADER-BKGD);
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+}
+.badge-wrapper{
+    color: var(--COLOR-HEADER-TEXT);
+    width: 2rem;
+    position: relative;
+}
+.badge-wrapper > i {
+    font-size: 1.5rem;
+}
+.notification-badge{
+    position: absolute;
+    top: -3px;
+    right: -1px;
+    width: 1rem;
+    height: 1rem;
+    font-size: 0.6rem;
+    border: 1px solid var(--COLOR-WHITE);
+    border-radius: 50%;
+    background: var(--COLOR-NOTIFICATION);
+    color: var(COLOR-WHITE);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* === MAIN === */
+.main-container{
+    margin: 2.625rem auto 0 auto;
+    padding: 1rem;
+}
+
+/* === MOBILE VIEW === */
+@media (max-width: 425px){
+    .main-container{
+        padding: 1rem 0.25rem;
+        margin-top: 6.063rem;
+    }
+    .header{
+        flex-direction: column;
+    }
+    .searchBar{
+        order: 3;
+        flex: 0;
+    }
+}
