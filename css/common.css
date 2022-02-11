@@ -16,18 +16,22 @@ img {
 }
 button{
     cursor: pointer;
+    border: none;
 }
 a{
     text-decoration: none;
+    color: var(--COLOR-WHITE);
 }
 ul {
     list-style: none;
 }
 
 /* === BODY === */
+body{
+    background: var(--COLOR-BODY);
+}
 .container{
     padding: 0.5rem;
-    background: var(--COLOR-BODY);
 }
 
 /* === HEADER === */
