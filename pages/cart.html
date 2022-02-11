@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basics | Cart</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/cart.css">
+    <link rel="stylesheet" href="../css/product-card.css">
+</head>
+<body>
+    <div class="container">
+        <!-- HEADER -->
+        <header class="header">
+            <div >
+                <a href="/index.html" class="logo">BASICS</a>
+            </div>
+            <div class="searchBar">
+                <input type="text" class="search-input" placeholder="Search for products, brands and more">
+            </div>
+            <div class="desktop-actions">
+                <a href="/pages/login.html" class="btn-login">
+                    Login
+                </a>
+                <a href="/pages/wishlist.html" class="badge-wrapper">
+                    <i class="far fa-heart"></i>
+                    <span class="badge notification-badge">15</span>
+                </a>
+                <a href="/pages/cart.html" class="badge-wrapper">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="badge notification-badge">2</span>
+                </a>
+            </div>
+        </header>
+        <!-- MAIN -->
+        <main class="main-container">
+            <div>
+                <h2 class="cart-header">My Cart</h2>
+            </div>
+            <section class="cart-product-container">
+                <div class="final-product-container">
+                    <div class="product-card">
+                        <div class="product-card-image-container">
+                            <img src="https://picsum.photos/201" alt="product">
+                        </div>
+                        <div class="product-card-info">
+                            <div>
+                                <h3>Nike</h3>
+                                <h5 class="description-content">Airforce 1</h5>
+                                <div class="product-card-price">
+                                    <span class="current-price">Rs 395</span>
+                                    <small class="original-price">Rs 1099</small>
+                                    <small class="discount">(64% OFF)</small>
+                                </div>
+                            </div>
+                            <div class="product-card-btn-container">
+                                <button class="btn-removeFromCart">Remove from Cart</button>
+                                <button class="btn-movetoWishlist">Move to WishList</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-card-image-container">
+                            <img src="https://picsum.photos/201" alt="product">
+                        </div>
+                        <div class="product-card-info">
+                            <div>
+                                <h3>Nike</h3>
+                                <h5 class="description-content">Airforce 1</h5>
+                                <div class="product-card-price">
+                                    <span class="current-price">Rs 395</span>
+                                    <small class="original-price">Rs 1099</small>
+                                    <small class="discount">(64% OFF)</small>
+                                </div>
+                            </div>
+                            <div class="product-card-btn-container">
+                                <button class="btn-removeFromCart">Remove from Cart</button>
+                                <button class="btn-movetoWishlist">Move to WishList</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="price-card-container">
+                    <div class="price-card">
+                        <div class="coupon-check">
+                            <span>Do you have a coupon?</span>
+                            <a href="#">Apply</a>
+                        </div>
+                        <h4>PRICE DETAILS</h4>
+                        <div class="price-box">
+                            <div class="item-price">
+                                <span>Price (3 items)</span>
+                                <span>Rs.3000</span>
+                            </div>
+                            <div class="item-price">
+                                <span>Discount</span>
+                                <span>-Rs.500</span>
+                            </div>
+                            <div class="item-price">
+                                <span>Delivery Charges</span>
+                                <span>FREE</span>
+                            </div>
+                            <div class="item-price">
+                                <span>Total Amount</span>
+                                <span>Rs2500</span>
+                            </div>
+                        </div>
+                        <p>You will save Rs500 on this order</p>
+                        <a href="#" class="btn-placeOrder">Place Order</a>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    </div>
+</body>
+</html>
