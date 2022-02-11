@@ -54,6 +54,7 @@
 }
 .btn-addToCart{
     background-color: var(--COLOR-ADDTOCART);
+    background-color: var(--COLOR-BLACK);
     color: var(--COLOR-WHITE);
 }
 /* VERTICAL CARD */

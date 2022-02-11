@@ -1,3 +1,6 @@
+.cart-header{
+    text-align: center;
+}
 .wishlist-product-container{
     background: var(--COLOR-CATEGORY-BKGD);
     max-width: 50rem;
