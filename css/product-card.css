@@ -7,7 +7,6 @@
 }
 .product-card-image-container {
     position: relative;
-    height: 15.625rem;
     flex: 0 0 50%;
 }
 .product-card-image-container > img {
