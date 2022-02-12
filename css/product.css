@@ -1,0 +1,40 @@
+.product-page{
+    display: flex;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+.filter-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 18.75rem;
+    padding: 1rem;
+    flex: 1 1 10%;
+    min-width: 20ch;
+    background: var(--COLOR-CATEGORY-BKGD);
+}
+.filter-header{
+    display: flex;
+    justify-content: space-between;
+}
+.filter-header > button{
+    background: none;   
+}
+.filter-header > button:hover {
+    text-decoration: underline;
+}
+.sub-filter-header{
+    margin-bottom: 0.5rem;
+}
+.filter-container label {
+    display: block;
+    margin-bottom: 0.25rem;
+}
+.product-container{
+    padding: grid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 1rem;    
+    flex: 1 1 70%;
+}
